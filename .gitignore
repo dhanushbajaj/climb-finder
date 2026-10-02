@@ -33,6 +33,8 @@ yarn-error.log*
 # env files (can opt-in for committing if needed)
 .env*
 !.env.example
+# local secrets (Supabase DB password etc.)
+.env.local
 
 # vercel
 .vercel
